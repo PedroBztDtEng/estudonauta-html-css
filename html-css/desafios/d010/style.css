@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'font-android';
+    src: url('fonts/idroid.otf');
+}
+
+@font-face {
+    font-family: 'tecno';
+    src: url('fonts/Good\ Times\ Rg.otf');
+}
+
+body {
+    background-color: #84E1AD;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(to bottom, #3AD07E,#1A5C38);
+    text-align: center;
+    padding: 10px 10px;
+    font-family: 'tecno';
+}
+
+main {
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0px auto;
+    background-color: white;
+}
+
+nav > a {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#dan-morrill, #inkscape, #irina-block, #android-history {
+    padding: 2px;
+    text-decoration: none;
+    color: #256441;
+    border-radius: 10%;
+    background-color: #26dc78;
+    font-weight: bold;
+}
+
+#dan-morrill::after, #inkscape::after, #irina-block::after, #android-history::after {
+    content: "\1F517";
+}
+
+nav > a:hover {
+    background-color: #26dc78;
+    padding: 10px;
+    color: #1A5C38;
+    border-radius: 10%;
+}
+
+p {
+    text-align: justify;
+    text-indent: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2,h3 {
+    font-family: 'font-android';
+    color: #256441;
+}
+
+h3 {
+    background-color: #26dc78;
+    background-image: linear-gradient(to right, #4ef79a, white);
+}
+
+#dan-droids, #irina-blok, #bugdroid, #video-bugdroid {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(1, 25, 1);
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    background-color: #1A5E39;
+    color: white;
+    border-radius: 10%;
+}
