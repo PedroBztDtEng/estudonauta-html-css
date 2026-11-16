@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Devonshire&family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Devonshire&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 50px;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 140px;
+    font-family: 'Passion One';
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+}
+
+header p a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+header p  a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: white;
+    margin: auto;
+    padding: 40px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section.normal p {
+    color: black;
+    font-family: 'Sriracha';
+    font-size: 53px;
+    text-align: left;
+}
+
+section.background-image {
+    font-family: 'Sriracha';
+    font-size: 53px;
+    text-align: left;
+}
+
+section#joaninha {
+    background-image: url('imagens/background001.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+section#joaninha p {
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+section#joaninha p {
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+section#livro {
+    background-image: url('imagens/background002.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+section#livro p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.456);
+    color: white;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    font-size: 17px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
